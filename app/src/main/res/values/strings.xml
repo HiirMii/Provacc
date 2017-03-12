@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Provacc</string>
+
+    <!-- Image Descriptions -->
+    <string name="salmon_description">Salmon jumping up the waterfall.</string>
+    <string name="provacc_logo">Provacc AS logo.</string>
+
+    <!-- Company Description -->
+    <string name="about">Provacc AS is a dynamic Norwegian vaccination company.
+        We combine years of experience in vaccination and practical fish farming, something that enables us to create a unique quality of service.
+        Quality you can trust. We are proud to be part of the production chain leading to the exquisite quality product that is Norwegian farmed salmon.</string>
+
+    <!-- Details -->
+    <string name="location">Kjølebrøndsveien 1034, 3766 Sannidal, Norway</string>
+    <string name="email">post@provacc.no</string>
+    <string name="contact">+47 45 23 64 55</string>
+</resources>

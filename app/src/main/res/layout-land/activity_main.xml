@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/landscape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.provacc.MainActivity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:contentDescription="@string/salmon_description"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/salmon_height"
+            android:src="@drawable/fish"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            style="@style/alpha"
+            android:id="@+id/logo"
+            android:contentDescription="@string/provacc_logo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alpha_height"
+            android:src="@drawable/logo"
+            android:scaleType="fitStart"
+            android:layout_alignBottom="@+id/image"
+            android:paddingStart="@dimen/alpha_horizontal_padding"
+            android:paddingLeft="@dimen/alpha_horizontal_padding"
+            android:paddingEnd="@dimen/alpha_horizontal_padding"
+            android:paddingRight="@dimen/alpha_horizontal_padding"
+            android:paddingTop="@dimen/alpha_vertical_padding"
+            android:paddingBottom="@dimen/alpha_vertical_padding"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/logo">
+
+            <TextView
+                style="@style/text"
+                android:id="@+id/about"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:text="@string/about"
+                android:textSize="@dimen/text_size"
+                android:layout_marginStart="@dimen/double_margin"
+                android:layout_marginLeft="@dimen/double_margin"
+                android:layout_marginRight="@dimen/single_margin"
+                android:layout_marginEnd="@dimen/single_margin"
+                android:layout_marginTop="@dimen/double_margin"
+                android:layout_marginBottom="@dimen/double_margin"/>
+
+            <LinearLayout
+                android:id="@+id/details"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/single_margin"
+                android:layout_marginLeft="@dimen/single_margin"
+                android:layout_marginRight="@dimen/double_margin"
+                android:layout_marginEnd="@dimen/double_margin"
+                android:layout_marginTop="@dimen/double_margin"
+                android:layout_marginBottom="@dimen/double_margin"
+                >
+                <TextView
+                    style="@style/text"
+                    android:id="@+id/location"
+                    android:textSize="@dimen/details_text_size"
+                    android:gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_location"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:drawablePadding="@dimen/double_padding"
+                    android:layout_marginBottom="@dimen/details_bottom_margin"
+                    android:text="@string/location" />
+                <TextView
+                    style="@style/text"
+                    android:id="@+id/email"
+                    android:textSize="@dimen/details_text_size"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_email"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:drawablePadding="@dimen/triple_padding"
+                    android:paddingStart="@dimen/single_padding"
+                    android:paddingLeft="@dimen/single_padding"
+                    android:paddingEnd="@dimen/single_padding"
+                    android:paddingRight="@dimen/single_padding"
+                    android:layout_marginBottom="@dimen/details_bottom_margin"
+                    android:text="@string/email"/>
+                <TextView
+                    style="@style/text"
+                    android:id="@+id/contact"
+                    android:textSize="@dimen/details_text_size"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_call"
+                    android:drawableLeft="@drawable/ic_call"
+                    android:drawablePadding="@dimen/double_padding"
+                    android:text="@string/contact"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
