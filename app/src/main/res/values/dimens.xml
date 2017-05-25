@@ -4,26 +4,27 @@
     <!--  MAIN DIMENSIONS  -->
 
     <!-- Main image -->
-    <dimen name="salmon_height">250dp</dimen>
+    <dimen name="image_height">250dp</dimen>
 
     <!-- Logo image -->
-    <dimen name="alpha_height">50dp</dimen>
-    <dimen name="alpha_vertical_padding">4dp</dimen>
-    <dimen name="alpha_horizontal_padding">16dp</dimen>
+    <dimen name="logo_height">50dp</dimen>
+    <dimen name="logo_vertical_padding">8dp</dimen>
+    <dimen name="logo_horizontal_padding">16dp</dimen>
 
     <!-- Text -->
-    <dimen name="text_size">14sp</dimen>
-    <dimen name="details_text_size">12sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="details_text_size">13sp</dimen>
 
     <!-- Details LinearLayout margins -->
     <dimen name="single_margin">16dp</dimen>
     <dimen name="double_margin">32dp</dimen>
-    <dimen name="portrait_about_bottom">24dp</dimen>
+    <dimen name="text_bottom_margin">24dp</dimen>
     <dimen name="details_bottom_margin">14dp</dimen>
 
+    <!-- Details height -->
+    <dimen name="list_item_height">72dp</dimen>
+
     <!-- Details icons padding values -->
-    <dimen name="single_padding">2dp</dimen>
-    <dimen name="double_padding">4dp</dimen>
-    <dimen name="triple_padding">6dp</dimen>
+    <dimen name="drawable_padding">16dp</dimen>
 
 </resources>

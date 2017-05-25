@@ -12,6 +12,7 @@
 
     <!-- Details -->
     <string name="location">Kjølebrøndsveien 1034, 3766 Sannidal, Norway</string>
+    <string name="location_landscape">Kjølebrøndsveien 1034,\n3766 Sannidal, Norway</string>
     <string name="email">post@provacc.no</string>
     <string name="contact">+47 45 23 64 55</string>
 </resources>
